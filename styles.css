@@ -1,0 +1,395 @@
+
+/* IDEA: styling for home/index page begin here */
+
+#site-header {
+  color: #2B2F26;
+}
+
+#main-navigation {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#main-navigation a {
+  color: #2B2F26;
+}
+
+#logo img {
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+  float: left;
+}
+
+#site-header {
+  text-align: center;
+}
+
+section h1 {
+  font-family: inherit;
+  font-size: 70px;
+  font-weight: normal;
+  margin-top: inherit;
+  margin-bottom: inherit;
+}
+
+section h2 {
+  font-size: 40px;
+  font-weight: 100;
+  margin-top: inherit;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-color: #F2F1E8;
+  font-family: "Merriweather";
+}
+
+.section-photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  margin: -20px 0 0 20px;
+}
+
+.product-1 {
+  width: 680px;
+  height: 360px;
+}
+
+.product-2 {
+  width: 220px;
+  height: 360px;
+}
+
+.product-3 {
+  width: 220px;
+  height: 360px;
+}
+
+.product-4 {
+  width: 230px;
+  height: 225px;
+}
+
+.product-5 {
+  width: 230px;
+  height: 225px;
+}
+
+.product-6 {
+  width: 425px;
+  height: 225px;
+}
+
+.product-7 {
+  width: 230px;
+  height: 225px;
+}
+
+h3 {
+  background: #2B2F26;
+  padding: 15px;
+  color: #F2F1E8;
+  float: left;
+
+}
+
+#text1 {
+  display: flex;
+  float: left;
+  position: relative;
+  top: -390px;
+  margin-left: 20px;
+}
+
+#text2 {
+  display: flex;
+  float: left;
+  position: relative;
+  top: -390px;
+  margin-left: 495px;
+}
+
+#text3 {
+  display: flex;
+  float: right;
+  position: relative;
+  top: -390px;
+  margin-right: 213px;
+}
+
+#text4 {
+  display: flex;
+  float: left;
+  position: relative;
+  top: -120px;
+  margin-left: -746px;
+
+}
+
+#text5 {
+  display: flex;
+  float: left;
+  position: relative;
+  top: -120px;
+  margin-left: -512px;
+
+}
+
+#text6 {
+  display: flex;
+  float: left;
+  position: relative;
+  top: -120px;
+  margin-left: -278px;
+}
+
+#text7 {
+  display: flex;
+  float: right;
+  position: relative;
+  top: -120px;
+  margin-right: -178px;
+}
+
+#site-footer {
+  position: relative;
+  height: 100px;
+  margin-top: 5%;
+  background-color: #2B2F26;
+  font-family: "Merriweather";
+  z-index: 3;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.site-footer-info {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  background-color: #2B2F26;
+  z-index: 2;
+  padding-left: 20px;
+  width: 95%;
+  color: white;
+}
+
+
+/* IDEA: styling for About page begin here */
+
+.wrapper{
+  width: 500px;
+}
+
+#site-headerabout {
+  color: #2B2F26;
+}
+
+#main-navigationabout {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#main-navigationabout a {
+  color: #2B2F26;
+}
+
+#logo img {
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+  float: left;
+}
+
+#site-headerabout {
+  text-align: center;
+}
+
+.body-content2 div {
+  display: flex;
+  justify-content: center;
+  color: #F2F1E8;
+  font-size: 80px;
+  position: relative;
+  top: 200px;
+}
+
+.quote-block{
+  border-left: 2px solid #968772;
+  font-style: italic;
+  font-weight: 100;
+  margin-top:40px;
+  padding-left: 35px;
+  text-align: left;
+  margin-left:0px;
+}
+
+#sectionabout h1 {
+  font-family: inherit;
+  font-size: 70px;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: inherit;
+}
+
+#aboutpic {
+  width: 160px;
+  float:left;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+
+}
+
+#backgroundpic3 {
+  width: 1280px;
+  height: 320px;
+
+}
+
+.body-content2 h2 p {
+  float: left;
+}
+
+.body-content3 img p {
+  float: left;
+}
+
+.body-content3 img {
+  width: 160px;
+  float:left;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+}
+
+
+.body-content3 p {
+  margin-top:2%;
+  font-size: 13px;
+}
+
+
+table{
+  border-collapse: collapse;
+}
+table tr td{
+  border: 1px solid black;
+}
+
+thead{
+  text-align: center;
+}
+
+td{
+  padding:10px;
+}
+
+.shaded-row{
+  background-color: #EAE3D5;
+}
+
+
+
+
+
+
+/* IDEA: styling for newsletter page begin here */
+.wrapper{
+  width: 1270px;
+}
+
+#site-headeraboutnews  {
+  color: #2B2F26;
+  text-align: center;
+}
+
+ #main-navigationnews ul{
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  color: black
+}
+
+#main-navigation a {
+  color: #2B2F26;
+}
+
+#logonews img {
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+  float: left;
+}
+
+.form_body {
+  background-image: url('images/background-2.jpg');
+  padding : 90px;
+  padding-bottom: 200px;
+  text-align: center;
+  }
+
+.newsletter_titles {
+    font-weight: lighter;
+  }
+
+#submit_button {
+  border-style: solid;
+  background-color: #968772;
+  border-color: #968772;
+  color: white;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 15px;
+}
+
+form {
+  background-color: white;
+  padding: 40px;
+  max-width: 500px;
+  margin: auto;
+}
+
+input[type=text]  {
+  width: 100%;
+}
+
+label {
+  color: #808080;
+  font-weight: lighter;
+  float:left;
+}
+
+#first_name {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #968772 2px;
+  outline: none;
+}
+
+#email {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #968772 2px;
+  outline: none;
+}
